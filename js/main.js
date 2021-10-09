@@ -9,7 +9,8 @@ function entrar(){
         dataType: 'json',
         data: {usuario: user, contraseña: pass },
         success: function(data){
-            alert('todo esta bn');
+            alert('todo esta bn' + data);
+            
         },
         error: function(r){
             alert('algo esta mal: '+ r);
