@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" >
+          <h3>REGISTRO DE USUARIO</h3>
+          <h4>Ingresa todos tus Datos!</h4>
+          <fieldset>
+            <input placeholder="Usuario" type="text" tabindex="1" id="user" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Contraseña" type="password" tabindex="2" id="pass" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Celular" type="tel" tabindex="3" id="cel" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Direccion" type="text" tabindex="4" id="direcc" required>
+          </fieldset>
+          <fieldset>
+            <button onclick="registrar()" type="button" >Registrar</button>
+          </fieldset>
+        </form>
+       
+        <!-- <script src="jquery/jquery-3.6.0.min.js"></script> -->
+        
+        <script src="js/main.js"></script>
+        
+      </div>
+</body>
+</html>
